@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="initial-scale=1,width=device-width" name="viewport">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/navstyle.css">
+	<script src="assets/javascript/inject.js"></script>
+	<script src="assets/javascript/nav.js"></script>
+	<script src="assets/javascript/jquery-3.2.1.min.js"></script>
+	<script> 
+    $(function(){
+      $("#Navagation").load("navmenu.shtml #mySidenav"); 
+    });
+    </script> 
+</head>
+<body>
+
+<div class="container">
+
+<header>
+	<h1><img src="assets/images/logo/logo5.png" alt="logo" align=""></h1>
+</header>
+  
+<nav>
+<ol id="Navagation"></ol>
+<div id="Navagation"></div>
+</nav>
+
+<article>
+  <h1>About</h1>
+  <p>Vanilla enhancement and game changing mod.</p>
+  
+  <h1>Ideas</h1>
+  <p>If you have an idea please submit it to the <a href="https://discord.gg/mRDkPFg">Discord</a>.</p>
+  
+  <h1>Download</h1>
+  <p>You can download it <a href="ModNotReleasedYet.html">here</a>.</p>
+  <p>*NOTE: The mod is not finished yet and will have bugs, please submit any issues/bugs <a href="https://github.com/SirBlobman/DragonFire/issues">here</a>.</p>
+  
+  <h1>Wiki</h1>
+  <p>Click <a href="https://github.com/SirBlobman/DragonFire/wiki">here</a> to visit the Wiki.</p>
+</article>
+
+<footer><!-->Copyright 2017 &copy; <a href="https://github.com/SirBlobman/DragonFire/graphs/contributors">The DragonFire Team</a>.<!--></footer>
+
+</div>
+
+</body>
+</html>
